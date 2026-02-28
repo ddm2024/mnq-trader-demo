@@ -1,1 +1,30 @@
-IyBNTlEgSHlicmlkIEFsZ28gVHJhZGVyIOKAlCBMaXZlIERlbW8KCkludGVyYWN0aXZlIGRlbW8gZGFzaGJvYXJkIGZvciB0aGUgTU5RIEh5YnJpZCBBbGdvIFRyYWRlciBzeXN0ZW0uIFRoaXMgaXMgYSBzdGF0aWMgSFRNTC9KUy9DU1MgYXBwbGljYXRpb24gdGhhdCBydW5zIGVudGlyZWx5IGluIHRoZSBicm93c2VyIOKAlCBubyBzZXJ2ZXIgcmVxdWlyZWQuCgojIyBGZWF0dXJlcwoKLSBSZWFsLXRpbWUgY2FuZGxlc3RpY2sgY2hhcnRzIHdpdGggRU1BIG92ZXJsYXlzIGFuZCBBVFIgYmFuZHMKLSBTdHJhdGVneSBjb25maWd1cmF0aW9uIHdpdGggbGl2ZSBwb3NpdGlvbiBzaXplIGNhbGN1bGF0b3IKLSBQaW5lIFNjcmlwdCB2NSBnZW5lcmF0b3IgZm9yIFRyYWRpbmdWaWV3IGludGVncmF0aW9uCi0gQmFja3Rlc3Rpbmcgc2ltdWxhdG9yIHdpdGggZXF1aXR5IGN1cnZlcyBhbmQgdHJhZGUgbG9ncwotIFRyYWRlIGhpc3Rvcnkgd2l0aCBkYWlseSBQJkwgY2hhcnRzIGFuZCBDU1YgZXhwb3J0Ci0gRnVsbCBUcmFkb3ZhdGUgY29ubmVjdGlvbiBzZXR1cCBpbnRlcmZhY2UKCiMjIFVzYWdlCgpTaW1wbHkgb3BlbiBgaW5kZXguaHRtbGAgaW4gYW55IG1vZGVybiBicm93c2VyLCBvciBkZXBsb3kgdG8gYW55IHN0YXRpYyBob3N0aW5nIHNlcnZpY2UgKEdpdEh1YiBQYWdlcywgTmV0bGlmeSwgVmVyY2VsLCBTMykuCgojIyMgR2l0SHViIFBhZ2VzCgoxLiBHbyB0byBTZXR0aW5ncyDihpIgUGFnZXMKMi4gU291cmNlOiBEZXBsb3kgZnJvbSBicmFuY2gg4oaSIG1haW4g4oaSIC8gKHJvb3QpCjMuIFNhdmUg4oCUIHlvdXIgZGVtbyB3aWxsIGJlIGxpdmUgYXQgYGh0dHBzOi8vZGRtMjAyNC5naXRodWIuaW8vbW5xLXRyYWRlci1kZW1vL2AKCiMjIFJlbGF0ZWQKCi0gW0Z1bGwgQXBwbGljYXRpb24gKFB5dGhvbi9TdHJlYW1saXQpXShodHRwczovL2dpdGh1Yi5jb20vZGRtMjAyNC9tbnEtaHlicmlkLXRyYWRlcikg4oCUIFRoZSBjb21wbGV0ZSB0cmFkaW5nIHN5c3RlbSB3aXRoIGxpdmUgVHJhZG92YXRlIGV4ZWN1dGlvbgoKIyMgRGlzY2xhaW1lcgoK4pqg77iPIFRoaXMgaXMgYSBERU1PIGZvciBlZHVjYXRpb25hbCBwdXJwb3NlcyBvbmx5LiBUcmFkaW5nIGZ1dHVyZXMgaW52b2x2ZXMgc3Vic3RhbnRpYWwgcmlzayBvZiBsb3NzLiBOb3QgZmluYW5jaWFsIGFkdmljZS4K
+# MNQ Hybrid Algo Trader — Live Demo
+
+Interactive demo dashboard for the MNQ Hybrid Algo Trader system. This is a static HTML/JS/CSS application that runs entirely in the browser — no server required.
+
+## Features
+
+- Real-time candlestick charts with EMA overlays and ATR bands
+- Strategy configuration with live position size calculator
+- Pine Script v5 generator for TradingView integration
+- Backtesting simulator with equity curves and trade logs
+- Trade history with daily P&L charts and CSV export
+- Full Tradovate connection setup interface
+
+## Usage
+
+Simply open `index.html` in any modern browser, or deploy to any static hosting service (GitHub Pages, Netlify, Vercel, S3).
+
+### GitHub Pages
+
+1. Go to Settings → Pages
+2. Source: Deploy from branch → main → / (root)
+3. Save — your demo will be live at `https://ddm2024.github.io/mnq-trader-demo/`
+
+## Related
+
+- [Full Application (Python/Streamlit)](https://github.com/ddm2024/mnq-hybrid-trader) — The complete trading system with live Tradovate execution
+
+## Disclaimer
+
+⚠️ This is a DEMO for educational purposes only. Trading futures involves substantial risk of loss. Not financial advice.
